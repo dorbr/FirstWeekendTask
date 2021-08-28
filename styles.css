@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgba(255,255,255, 100)
+  ),url(img2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    
+}
+main{
+    width: 70%;
+    overflow: hidden;
+    margin-left:200px;
+    color: black;
+}
+.navigationBar{
+    width: 200px;
+    height: 100%;
+    background-color: cyan;
+    left: 0;
+    position:fixed;
+    overflow:hidden;
+}
+.nav-link{
+    display:block;
+    padding: 10px 30px;
+    text-decoration:none;
+    color: black;
+    border: 2px;
+}
+.navLink :hover{
+    opacity: 0.5;
+}
+.navLink :visited{
+    color:black;
+}
+@media (max-width:600px) {
+    .navigationBar{
+        background-color: gold;
+    }
+}
